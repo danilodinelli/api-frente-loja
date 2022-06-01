@@ -4,11 +4,13 @@
 <strong>Executar o composer</strong>
 <p><i>composer require laravel/installer</i></p>
 
-
 <strong>Configurar conexão com o banco de dados no arquivo .env </strong>
 
 <strong>Executar o Migrate</strong>
 <p>php artisan migrate</p>
+
+<strong>Executar o servidor interno</strong>
+<p><i>php artisan serve</i></p>
 
 
 <strong>Endpoints da API</strong>
@@ -100,6 +102,7 @@
 
 <hr>
 
+<p><strong>GET - /api/order</strong><p>
 <p><strong>POST - /api/order/add</strong><p>
 <p>
     {
